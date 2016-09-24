@@ -1,6 +1,6 @@
 print "Long-long Vowels Exercise"
-# Given a word as a string, print the result of extending any long vowels to the
-# length of 5.
+# Given a word as a string, print the result of any 2 vowels in a row
+# to the length of 5 instead
 
 phrase = (raw_input("Enter a word or sentence: ")).lower()
 

@@ -10,10 +10,10 @@ counter = 0
 for letter in phrase:
     if letter == "a" or letter == "e" or letter == "o":
         counter += 1
-        match = letter
+        vowel = letter
         if counter == 2:
             counter = 0
-            new_phrase += (match * 3)
+            new_phrase += (vowel * 3)
     else:
         pass
     new_phrase += letter

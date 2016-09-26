@@ -1,4 +1,4 @@
-print "Caesar Cipher Exercise"
+print "Caesar Decipher Exercise"
 # Given a string that has been "ciphered", return the deciphered form
 
 ciphered_text = "xibu ep zpv uijol bcpvu uif tlz"

@@ -8,12 +8,14 @@ new_phrase = ""
 counter = 0
 
 for letter in phrase:
-    if counter == 2:
-        counter = 0
-        new_phrase += (match * 3)
-    elif letter == "a" or letter == "e" or letter == "o":
+    if letter == "a" or letter == "e" or letter == "o":
         counter += 1
         match = letter
+        if counter == 2:
+            counter = 0
+            new_phrase += (match * 3)
+    else:
+        pass
     new_phrase += letter
 
 print new_phrase
